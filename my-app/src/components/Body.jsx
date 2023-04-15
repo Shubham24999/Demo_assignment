@@ -15,11 +15,11 @@ function Body(){
                 </div>
                <div>
                 <div>
-                    <h3><AiOutlineAliwangwang style={{border:"1px solid red",width:"20px",height:"20px",borderRadius:"50%",backgroundColor:"#D1C4E9",color:"#651FFF",marginRight:"10px"}}/> Share team inboxes</h3>
+                    <h3><AiOutlineAliwangwang style={{width:"30px",height:"30px",borderRadius:"50%",backgroundColor:"#D1C4E9",color:"#651FFF",marginRight:"10px"}}/> Share team inboxes</h3>
                     <p>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
                 </div>
                 <div>
-                    <h3> <FiZap style={{border:"1px solid red",width:"20px",height:"20px",borderRadius:"50%",backgroundColor:"#D1C4E9",color:"#651FFF",marginRight:"10px"}}/>Deliver instant answers</h3>
+                    <h3> <FiZap style={{width:"30px",height:"30px",borderRadius:"50%",backgroundColor:"#D1C4E9",color:"#651FFF",marginRight:"10px"}}/>Deliver instant answers</h3>
                     <p>An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
                 </div>
             

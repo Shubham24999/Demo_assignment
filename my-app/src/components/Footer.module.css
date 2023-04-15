@@ -1,7 +1,78 @@
 .fcont{
-    display:"flex"
+    /* display:flex; */
+    /* border:1px solid red; */
+    width:90%;
+    margin:auto;
+}
+
+
+.fbox{
+    display:flex;
+    justify-content: space-between;
 }
 
 .box1{
-    border: "5px solid yellow";
+    width:55%;
+    /* border: 1px solid red; */
+}
+
+.box1 div:nth-child(1){
+    /* border: 1px solid black; */
+    height: 60px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.box1 div:nth-child(2){
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2{
+    width:25%;
+    /* border: 1px solid red; */
+}
+.box2 div{
+    gap: 15px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 10px;
+    height: 35px;
+
+}
+/* .box2 div p{
+    margin:10px ;
+} */
+.box div input{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+.box2 div button{
+    border-radius: 5px;
+    color:white;
+    border:0px;
+    background-color:#651FFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.bottom{
+    display:flex;
+    width:25%;
+    justify-content:space-between;
+    /* border:1px solid red; */
+    justify-content:center
+}
+
+.bottom a{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 10px;
+    /* border:1px solid red; */
+    /* text-decoration: none; */
+}
+
+a{
+    text-decoration: none;
 }
