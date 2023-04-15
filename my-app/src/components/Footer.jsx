@@ -13,7 +13,7 @@ function Footer(){
                       <div href="#" style={{display:"flex",justifyContent:"center",justifyItems:"center"}}><h3>Hourglass</h3></div>
                     </div>
                     <br />
-                    <div style={{display:"flex",border:"1px solid green",width:"90%",justifyContent:"space-around"}}>
+                    <div style={{display:"flex",border:"1px solid green",width:"90%",gap:"8px"}}>
                         <a style={{textDecoration:"none"}} href="#">Overview</a>
                         <a style={{textDecoration:"none"}} href="#">Features</a>
                         <a style={{textDecoration:"none"}} href="#">Pricing</a>
@@ -38,10 +38,10 @@ function Footer(){
                 <div style={{width:"60%"}}>
                     <p>@ 2077 Fake Company, All rights reserved.</p>
                 </div>
-                <div style={{display:"flex",width:"25%",justifyContent:"space-between",border:"1px solid red"}}>
-                    <a href="#">Terms</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Cookies</a>
+                <div style={{gap:"5px",display:"flex",width:"25%",justifyContent:"space-between",border:"1px solid red",justifyContent:"center"}}>
+                    <a style={{textDecoration:"none"}} href="#">Terms</a>
+                    <a style={{textDecoration:"none"}} href="#">Privacy</a>
+                    <a style={{textDecoration:"none"}} href="#">Cookies</a>
                 </div>
             </div>
             

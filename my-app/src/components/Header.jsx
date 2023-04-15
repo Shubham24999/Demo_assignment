@@ -1,39 +1,67 @@
 import style from "./Header.module.css"
-
+import { BiCaretRightCircle } from "react-icons/bi";
 
 function Header(){
 
 
     return <div className={style.cont}>
 
-        <div className="box1" >
+        <div className={style.box1} >
         
         <div className={style.nav}>
-        <div><img className={style.logo}  src="https://i.postimg.cc/YCp7v5dX/logo.png" alt="" /></div>
-        <div><a href="#" style={{color:"white"}}><h3>Hourglass</h3></a></div>
-        <div><select name="products" id="pro">
+            
+        <div>
+            <img className={style.logo}  src="https://i.postimg.cc/YCp7v5dX/logo.png" alt="" />
+        </div>
+
+        <div>
+            <a href="#" style={{color:"white",textDecoration:"none"}}><h3>Hourglass</h3></a>
+        </div>
+
+        <div>
+            <select name="products" id="pro">
             <option value="Products">Products</option>
-        </select></div>
-        <div><select name="resources" id="res">
+            </select>
+        </div>
+
+        <div>
+            <select name="resources" id="res">
             <option value="resources">Resources</option>
-        </select></div>
+            </select>
+        </div>
+        </div>
+
+
+
         <div className="box2">
             <div><a href="#" style={{color:"white"}}>Support</a></div>
             <button>Talk to sales</button>
         </div>
+
         </div>
         
         
-        <div><h3>We design physical <a href="#" style={{color:"white"}}>experiences</a> that create more happy in the world</h3></div>
-        <div><p>-- We're a full-service interior designer agency who specialise in simple,useful and beautiful solutions for any space.</p></div>
+        <div className="hbox2">
+        <div >
+            <h3 style={{fontSize:"30px"}}>We design physical <a href="#" style={{color:"white"}}>experiences</a> that create more happy in the world</h3>
+        </div>
         <div>
-            <button>
-                Showreel
+            <b><p>-- We're a full-service interior designer agency who specialise in simple,useful and beautiful solutions for any space.</p></b>
+        </div>
+        <div className={style.btn}>
+            <button style={{color:"#651FFF"}}>
+            <BiCaretRightCircle style={{marginRight:"5px"}} />
+            Showreel
             </button>
             <button style={{color:"white",backgroundColor:"#651FFF"}}>
                 Get in touch
             </button>
         </div>
+        </div>
+        
+
+
+
         <div>
             <img style={{width:"100%"}} src="https://i.postimg.cc/jSG8Fmzr/about-image.png" alt="about-img" />
         </div>
@@ -49,7 +77,7 @@ function Header(){
             <div><img style={{width:"100%"}} src="https://i.postimg.cc/W3LqxLpg/company-logo-quotient.png" alt="" /></div>
         </div>
 
-        </div>
+        
 
 
     </div>
