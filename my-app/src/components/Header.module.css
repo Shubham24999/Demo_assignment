@@ -1,8 +1,8 @@
 
 
 .logo{
-    width: 60px;
-    height: 40px;
+    width: 50px;
+    height: 60px;
 }
 
 .cont{
@@ -173,3 +173,23 @@
     background-color:#651FFF;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.logoimg{
+    display:flex;
+    gap:15px
+}
+
+.rlogoimg{
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,45%);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+
+/* @media screen and (max-width: 640px){
+    .logoimg{
+        border:1px solid red;
+    }
+} */
+  

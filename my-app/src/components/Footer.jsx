@@ -10,7 +10,6 @@ function Footer(){
                       <img style={{width:"40px",height:"40px",margin:"10px"}} src="https://i.postimg.cc/YCp7v5dX/logo.png" alt="" />
                       <div href="#" style={{color:"#651FFF"}}><h3>Hourglass</h3></div>
                     </div>
-                    <br />
                     <div >
                         <a  href="#">Overview</a>
                         <a  href="#">Features</a>
